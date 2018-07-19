@@ -20,7 +20,7 @@ class AddCounter extends Component {
                 <form>
                     <div className="field is-grouped">
                         <button className="button is-primary"
-                            onClick={this.onClickHandler()}>
+                            onClick={() => this.onClickHandler(event)}>
                             ADD
                         </button>
                     </div>
